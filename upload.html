@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="upload.css">
+    <title>Upload de Jogos</title>
+</head>
+<body>
+    <div id="desenvolvedorSection">
+        <h3>Anexar Arquivo de Jogo Executável</h3>
+        <input type="file" id="arquivoJogo" accept=".exe,.zip,.jar,.apk,.java" required>
+        <button onclick="anexarArquivo()">Anexar Arquivo</button>
+        
+        <h4>Arquivos Anexados</h4>
+        <ul id="listaArquivos"></ul> 
+
+        <div id="mensagensCodigos"></div>
+    </div>
+
+    <script src="upload.js"></script>
+</body>
+</html>
